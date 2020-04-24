@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:28.0-jre'
+    implementation group: 'com.google.protobuf', name: 'protobuf-java', version: '3.9.1'
+    implementation group: 'io.netty', name: 'netty-all', version: '4.1.41.Final'
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.16.18'
+    implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.62'
+
+    testImplementation 'junit:junit:4.12'
+}
+
+application {
+    mainClassName = 'com.noitom.pnstream.upclient.UpclientAppWithPn'
+}
