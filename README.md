@@ -42,12 +42,13 @@ https://github.com/neuronmocap/pns-upclient/releases/tag/v0.1.0
 ### steps
 1. unzip the pns-upclient.zip
 2. run PN Axis app and enable port 7001
-3. run the bat file with server ip as parameter
+3. pns-server is running in server
+4. run the bat file with server ip as parameter
 ```
 \path\to\pns-upclient.bat xxx.xxx.xxx.xxx
 ```
 > xxx.xxx.xxx.xxx is the server ip on which pns-server is running
-4. console log is as following:
+5. console log is as following:
 ```
 connecting  27.8.1.137:9998
 connecting  127.0.0.1:7001
