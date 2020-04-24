@@ -24,17 +24,11 @@ The two components marked with yellow background in the diagram are the new adde
 ## Get pns-upclient app
 pns-upclient app can be built from source code or download from release page.
 ### build steps
-1. build app,target file is: build\distributions\pns-upclient.zip
+1. build app
 ```
 gradlew.bat distZip
 ```
-2. unzip pns-upclient.zip and run
-```
-cd build\distributions
-unzip pns-upclient.zip
-pns-upclient\bin\pns-upclient.bat 127.0.0.1
-```
-> 127.0.0.1 can replaced with the real ip on which pns-server is running.
+2. target file is: build\distributions\pns-upclient.zip
 
 ### download page
 
