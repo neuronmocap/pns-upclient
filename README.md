@@ -31,6 +31,7 @@ gradlew.bat distZip
 2. target file is: build\distributions\pns-upclient.zip
 
 ### download page
+https://github.com/neuronmocap/pns-upclient/releases/tag/v0.1.0
 
 ## Run pns-upclient app
 ### precondition
